@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100b16">
+<meta name="description" content="A little birthday universe made just for Jashan, with love from Suru.">
+<title>For Jashan, with love — Suru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="topbar"><a class="monogram" href="#home">S <span>♥</span> J</a><span class="top-note">A little universe, just for you</span><button id="musicToggle" class="sound-toggle" aria-pressed="false">♫ <span>Sound off</span></button></header>
+
+<main>
+<section id="home" class="hero section">
+  <div class="eyebrow"><span class="spark">✦</span> 10 NOVEMBER 2006 <span class="spark">✦</span></div>
+  <p class="small-kicker">To my favourite person</p>
+  <h1>Happy Birthday,<br><em>Jashan.</em></h1>
+  <p class="hero-copy">Some people make the world feel softer.<br>You make mine feel like magic.</p>
+  <div class="hero-actions"><a class="button button-primary" href="#letter">Open your surprise <span>↘</span></a><button class="text-button" id="heartButton">Send a little love <span>♡</span></button></div>
+  <div class="hero-photo-wrap">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+    <figure class="hero-photo"><img src="assets/memory-02.jpg" alt="A favourite photo of Jashan"><figcaption>the girl who makes ordinary days special</figcaption></figure>
+    <span class="floating-heart heart-one">♡</span><span class="floating-heart heart-two">✦</span><span class="floating-heart heart-three">♡</span>
+  </div>
+  <div class="scroll-hint"><span></span> SCROLL INTO OUR LITTLE STORY</div>
+</section>
+
+<section id="letter" class="section letter-section">
+  <p class="eyebrow">01 — A NOTE FROM MY HEART</p>
+  <div class="letter-card">
+    <span class="letter-flower">✳</span>
+    <h2>Dear Jashan,</h2>
+    <p class="letter-lead">If I could give you one thing today, it would be the chance to see yourself through my eyes.</p>
+    <p>You would see someone worth celebrating on the ordinary days, not just on a birthday. Someone whose smile can change the mood of a whole day. Someone I feel lucky to know, to care for, and to make memories with.</p>
+    <p>I hope this new chapter brings you peaceful mornings, big reasons to laugh, little surprises, and every kind of happiness your heart has been quietly wishing for. Never forget how special you are.</p>
+    <p class="letter-signoff">With all my love, <span>Suru ♡</span></p>
+  </div>
+</section>
+
+<section id="memories" class="section memories-section">
+  <p class="eyebrow">02 — LITTLE MOMENTS, BIG FEELINGS</p>
+  <h2>My favourite kind<br>of <em>memories.</em></h2>
+  <p class="section-intro">A few snapshots of the person who makes this story beautiful.</p>
+  <div class="gallery" id="gallery">
+    <figure class="memory memory-tall"><img src="assets/memory-03.jpg" alt="Jashan memory one" loading="lazy"><figcaption><span>01</span> Your kind of magic</figcaption></figure>
+    <figure class="memory memory-wide"><img src="assets/memory-04.jpg" alt="Jashan memory two" loading="lazy"><figcaption><span>02</span> Pretty little moments</figcaption></figure>
+    <figure class="memory"><img src="assets/memory-05.jpg" alt="Jashan memory three" loading="lazy"><figcaption><span>03</span> That lovely smile</figcaption></figure>
+    <figure class="memory"><img src="assets/memory-06.jpg" alt="Jashan memory four" loading="lazy"><figcaption><span>04</span> Forever a favourite</figcaption></figure>
+    <figure class="memory memory-wide"><img src="assets/memory-07.jpg" alt="Jashan memory five" loading="lazy"><figcaption><span>05</span> A moment to keep</figcaption></figure>
+    <figure class="memory"><img src="assets/memory-08.jpg" alt="Jashan memory six" loading="lazy"><figcaption><span>06</span> Simply you</figcaption></figure>
+    <figure class="memory"><img src="assets/memory-09.jpg" alt="Jashan memory seven" loading="lazy"><figcaption><span>07</span> My soft spot</figcaption></figure>
+    <figure class="memory memory-tall"><img src="assets/memory-10.jpg" alt="Jashan memory eight" loading="lazy"><figcaption><span>08</span> A little piece of happy</figcaption></figure>
+  </div>
+</section>
+
+<section class="section reasons-section">
+  <p class="eyebrow">03 — A FEW REASONS</p>
+  <h2>Why you're <em>so loved.</em></h2>
+  <div class="reason-box"><span class="reason-count" id="reasonCount">01 / 06</span><p id="reasonText">Because your smile has a way of making everything feel okay.</p><button id="nextReason" class="round-button" aria-label="Next reason">↗</button></div>
+  <p class="tiny-note">Tap the arrow for another little reminder.</p>
+</section>
+
+<section class="section wish-section">
+  <div class="wish-stars">✦　·　✧　·　✦</div>
+  <p class="eyebrow">04 — MAKE A WISH</p>
+  <h2>Close your eyes.<br><em>Wish big.</em></h2>
+  <p class="section-intro">Whatever your heart is hoping for, I hope life brings it closer to you.</p>
+  <button id="wishButton" class="button button-primary">I made a wish ✨</button>
+  <p id="wishMessage" class="wish-message" aria-live="polite"></p>
+  <div id="confettiLayer" aria-hidden="true"></div>
+</section>
+
+<section class="finale section">
+  <div class="finale-card">
+    <p class="eyebrow">ONE LAST THING…</p>
+    <h2>In every version<br>of my world, <em>it's you.</em></h2>
+    <p>Happy birthday, Jashan. May this year be gentle with you and generous to you. Keep shining in your own beautiful way.</p>
+    <div class="final-heart">♡</div>
+    <p class="final-sign">Always cheering for you,<br><span>Suru</span></p>
+    <button class="text-button replay" id="replayButton">↻ Start our little story again</button>
+  </div>
+  <footer>MADE WITH LOVE · JUST FOR JASHAN <span>♡</span></footer>
+</section>
+</main>
+<script src="script.js"></script>
+</body></html>
